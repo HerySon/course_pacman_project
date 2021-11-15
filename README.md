@@ -1,7 +1,7 @@
 # Project Description
 
 This project contains the code for student's project pacman multiagent of my AI course.
-The code is forked from the original cours project given at [Standford CSS 221](https://github.com/stanford-cs221/autumn2019/tree/gh-pages/assignments/pacman)
+The code is forked from the original course project given at [Standford CSS 221](https://github.com/stanford-cs221/autumn2019/tree/gh-pages/assignments/pacman)
 
 ## Requirements
 
