@@ -3,8 +3,8 @@
 python pacman.py
 
 ## List of all options arguments to pacman.py
--l : sets layout type (`testClassic`, `smallClassic` `mediumClassic`,
-`trappedClassic``minimaxClassic`)  
+-l : sets layout type (`testClassic`, `smallClassic`, `mediumClassic`,
+`trappedClassic`, `minimaxClassic`)  
 -a : sets arguments for agents  
 
 -g : type of ghost agent (`DirectionalGhost` are smarter than default one)  
