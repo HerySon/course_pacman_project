@@ -4,16 +4,16 @@ python pacman.py
 
 ## List of all options arguments to pacman.py
 -l : sets layout type (`testClassic`, `smallClassic` `mediumClassic`,
-`trappedClassic``minimaxClassic`)
--a : sets arguments for agents
+`trappedClassic``minimaxClassic`)  
+-a : sets arguments for agents  
 
--g : type of ghost agent (`DirectionalGhost` are smarter than default one)
--k : sets number of ghosts, for example
--a depth=3: sets depth in graph traversal algorithm (only for minimax and variants)
+-g : type of ghost agent (`DirectionalGhost` are smarter than default one)  
+-k : sets number of ghosts  
+-a depth=3: sets depth in graph traversal algorithm (only for minimax and variants)  
 
--n : sets number of trials to play
---frameTime 0 : sets frametime to 0 to accelerate game
--q : turn off graphical layout (to accelerate game sessions)
+-n : sets number of trials to play  
+--frameTime 0 : sets frametime to 0 to accelerate game  
+-q : turn off graphical layout (to accelerate game sessions)  
 
 For more complete details on commands, type:
 python pacman.py -h
@@ -42,7 +42,7 @@ python pacman.py -l smallClassic -p ExpectimaxAgent -a evalFn=better -q -n 10
 python pacman.py -l contestClassic -p ContestAgent -g DirectionalGhost -q -n 10  
 
 ## Pacman with MachineLearning agent (to be implemented by students)
-python pacman.py -l mediumClassic -p MachineLearningAgent -q -n 500
+python pacman.py -l mediumClassic -p MachineLearningAgent -q -n 500  
 
 ## Tests to submit for grading
 python pacman.py -l mediumClassic -p ExpectimaxAgent -q -n 500 -a depth=3,evalFn=better  
